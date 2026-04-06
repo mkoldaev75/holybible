@@ -21,6 +21,7 @@ def main():
 
     create_structure()
     generate_json_fixed_encoding()
+    generate_index()
     print("\nJSON-файлы готовы. Теперь пересобери проект:")
     print(f"cd {OUTPUT_DIR}")
     print("npm run build")
@@ -58,10 +59,12 @@ def generate_json_fixed_encoding():
             17:"EST",18:"JOB",19:"PSA",20:"PRO",21:"ECC",22:"SNG",23:"ISA",24:"JER",
             25:"LAM",26:"EZK",27:"DAN",28:"HOS",29:"JOL",30:"AMO",31:"OBA",32:"JON",
             33:"MIC",34:"NAM",35:"HAB",36:"ZEP",37:"HAG",38:"ZEC",39:"MAL",
-            40:"MAT",41:"MRK",42:"LUK",43:"JHN",44:"ACT",45:"ROM",46:"1CO",47:"2CO",
-            48:"GAL",49:"EPH",50:"PHP",51:"COL",52:"1TH",53:"2TH",54:"1TI",55:"2TI",
-            56:"TIT",57:"PHM",58:"HEB",59:"JAS",60:"1PE",61:"2PE",62:"1JN",63:"2JN",
-            64:"3JN",65:"JUD",66:"REV"
+            40:"MAT",41:"MRK",42:"LUK",43:"JHN",44:"ACT",
+            # Русский Синодальный порядок: сначала соборные послания, потом Павловы
+            45:"JAS",46:"1PE",47:"2PE",48:"1JN",49:"2JN",50:"3JN",51:"JUD",
+            52:"ROM",53:"1CO",54:"2CO",55:"GAL",56:"EPH",57:"PHP",58:"COL",
+            59:"1TH",60:"2TH",61:"1TI",62:"2TI",63:"TIT",64:"PHM",
+            65:"HEB",66:"REV"
         }.get(book_id, f"UNK{book_id:02d}")
 
         book_no = f"{book_id:02d}"
@@ -107,6 +110,41 @@ def generate_json_fixed_encoding():
 
     conn.close()
     print("\n✓ Все JSON-файлы сгенерированы с правильной кодировкой UTF-8")
+
+
+def generate_index():
+    """Генерация index.json со списком всех книг для навигации"""
+    books_dir = OUTPUT_DIR / "public" / "translations" / TRANSLATION_CODE / "books"
+    books = []
+
+    for d in sorted(books_dir.iterdir()):
+        if not d.is_dir():
+            continue
+        chapters = sorted(f for f in d.iterdir() if f.suffix == ".json")
+        if not chapters:
+            continue
+        with open(chapters[0], "r", encoding="utf-8") as f:
+            data = json.load(f)
+        books.append({
+            "dir": d.name,
+            "code": data["book_code"],
+            "name": data["book"],
+            "chapters": len(chapters),
+            "number": data["book_number"]
+        })
+
+    index = {
+        "translation": TRANSLATION_CODE,
+        "translation_version": TRANSLATION_VERSION,
+        "language": LANGUAGE,
+        "books": books
+    }
+
+    index_path = OUTPUT_DIR / "public" / "translations" / TRANSLATION_CODE / "index.json"
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+
+    print(f"✓ index.json — {len(books)} книг")
 
 
 if __name__ == "__main__":
