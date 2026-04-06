@@ -1,0 +1,20 @@
+{
+  "translation": "ru_synodal",
+  "translation_version": "2025-04-06",
+  "language": "ru",
+  "license": "CC-BY-4.0",
+  "book": "ПСАЛТЫРЬ",
+  "book_code": "PSA",
+  "book_number": 19,
+  "chapter": 116,
+  "verses": [
+    {
+      "verse": 1,
+      "text": "Хвалите Господа, все народы, прославляйте Его, все племена; "
+    },
+    {
+      "verse": 2,
+      "text": "ибо велика милость Его к нам, и истина Господня пребывает вовек. Аллилуия. "
+    }
+  ]
+}
