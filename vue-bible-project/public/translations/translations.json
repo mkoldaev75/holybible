@@ -1,0 +1,354 @@
+{
+  "translations": [
+    {
+      "code": "af_afrikaans",
+      "language": "af",
+      "name": "Bybel",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "am_amharic",
+      "language": "am",
+      "name": "መጽሐፍ ቅዱስ",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ara_arabic",
+      "language": "ara",
+      "name": "الكتاب المقدس",
+      "books": 66,
+      "rtl": true
+    },
+    {
+      "code": "be_belarusian",
+      "language": "be",
+      "name": "Біблія",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "bg_bulgarian",
+      "language": "bg",
+      "name": "Библия",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "bn_bengali",
+      "language": "bn",
+      "name": "পবিত্র বাইবেল",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "cs_czech",
+      "language": "cs",
+      "name": "Bible",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "da_danish",
+      "language": "da",
+      "name": "Bibelen",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "de_luther",
+      "language": "de",
+      "name": "Bibel",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "du_dutch",
+      "language": "du",
+      "name": "Bijbel",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "en_kjv",
+      "language": "en",
+      "name": "The Bible (KJV)",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "es_reina",
+      "language": "es",
+      "name": "Biblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "et_estonian",
+      "language": "et",
+      "name": "Piibel",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "fa_persian",
+      "language": "fa",
+      "name": "کتاب مقدس",
+      "books": 66,
+      "rtl": true
+    },
+    {
+      "code": "fi_finnish",
+      "language": "fi",
+      "name": "Raamattu",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "fr_louis",
+      "language": "fr",
+      "name": "La Bible",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "gr_greek",
+      "language": "gr",
+      "name": "Αγία Γραφή",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "heb_hebrew",
+      "language": "heb",
+      "name": "הקודש במקרא",
+      "books": 66,
+      "rtl": true
+    },
+    {
+      "code": "hin_hindi",
+      "language": "hin",
+      "name": "पवित्र बाइबिल",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "hr_croatian",
+      "language": "hr",
+      "name": "Biblija",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "hu_hungarian",
+      "language": "hu",
+      "name": "Szent Biblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "hy_armenian",
+      "language": "hy",
+      "name": "Աdelays",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "is_icelandic",
+      "language": "is",
+      "name": "Biblían",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "it_riveduta",
+      "language": "it",
+      "name": "Bibbia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "jap_japanese",
+      "language": "jap",
+      "name": "日本聖書",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ka_georgian",
+      "language": "ka",
+      "name": "ბიბლია",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "kk_kazakh",
+      "language": "kk",
+      "name": "Киелі Кітап",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ko_korean",
+      "language": "ko",
+      "name": "성경",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "la_latin",
+      "language": "la",
+      "name": "Biblia Sacra",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "lt_lithuanian",
+      "language": "lt",
+      "name": "Biblija",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "lv_latvian",
+      "language": "lv",
+      "name": "Bībele",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "mk_macedonian",
+      "language": "mk",
+      "name": "Библија",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "no_norwegian",
+      "language": "no",
+      "name": "Bibelen",
+      "books": 64,
+      "rtl": false
+    },
+    {
+      "code": "pl_polish",
+      "language": "pl",
+      "name": "Biblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "pt_portuguese",
+      "language": "pt",
+      "name": "Bíblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ro_romanian",
+      "language": "ro",
+      "name": "Biblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ru_synodal",
+      "language": "ru",
+      "name": "Библия",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "sk_slovak",
+      "language": "sk",
+      "name": "Biblia",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "sq_albanian",
+      "language": "sq",
+      "name": "Bibla e Shenjtë",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "sr_serbian",
+      "language": "sr",
+      "name": "Библија",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "sv_swedish",
+      "language": "sv",
+      "name": "Bibeln",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "sw_swahili",
+      "language": "sw",
+      "name": "Biblia Takatifu",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "tam_tamil",
+      "language": "tam",
+      "name": "பரிசுத்த வேதாகமம்",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "th_thai",
+      "language": "th",
+      "name": "คัมภีร์ไบเบิล",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "tl_tagalog",
+      "language": "tl",
+      "name": "Bibliya",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "tr_turkish",
+      "language": "tr",
+      "name": "Kutsal Kitap",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "uk_ukrainian",
+      "language": "uk",
+      "name": "Біблія",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "ur_urdu",
+      "language": "ur",
+      "name": "انجیل مقدس",
+      "books": 66,
+      "rtl": true
+    },
+    {
+      "code": "vi_vietnamese",
+      "language": "vi",
+      "name": "Kinh Thánh",
+      "books": 66,
+      "rtl": false
+    },
+    {
+      "code": "zh_chinese",
+      "language": "zh",
+      "name": "简体中文和合本",
+      "books": 66,
+      "rtl": false
+    }
+  ]
+}

@@ -1,6 +1,0 @@
-{
-  "version": 1,
-  "description": "Bible static site",
-  "include": ["/*"],
-  "exclude": ["/translations/*"]
-}

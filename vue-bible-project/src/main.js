@@ -7,8 +7,8 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', component: () => import('./components/BookList.vue') },
-    { path: '/:bookDir', component: () => import('./components/ChapterList.vue'), props: true },
-    { path: '/:bookDir/:chapter', component: () => import('./components/ChapterView.vue'), props: true },
+    { path: '/:translation', component: () => import('./components/BookList.vue'), props: true },
+    { path: '/:translation/:bookFile/:chapter', component: () => import('./components/ChapterView.vue'), props: true },
   ],
   scrollBehavior() {
     return { top: 0 }
