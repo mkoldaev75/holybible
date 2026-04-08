@@ -2,3 +2,5 @@ vue-bible-project/.DS_Store
 vue-bible-project/node_modules/
 vue-bible-project/dist/
 vue-bible-project/public/
+holy-bible-tma/.wrangler/
+.wrangler/
